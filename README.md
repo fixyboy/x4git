@@ -1,101 +1,99 @@
-# GitHub Course README
+# README du Cours GitHub
 
 ## Introduction
 
-Welcome to the GitHub Course! This course is designed to help you understand the basics of GitHub, a web-based platform used for version control and collaborative software development. Whether you are a beginner looking to get started with version control or an experienced developer seeking to improve your workflow, this course covers the essential topics you need to know.
+Bienvenue dans le cours GitHub! Ce cours est conçu pour vous aider à comprendre les bases de GitHub, une plateforme web utilisée pour le contrôle de version et le développement logiciel collaboratif. Que vous soyez un débutant cherchant à démarrer avec le contrôle de version ou un développeur expérimenté cherchant à améliorer votre flux de travail, ce cours couvre les sujets essentiels que vous devez connaître.
 
-## Course Outline
+## Plan du Cours
 
-1. **Introduction to Version Control**
-   - What is version control?
-   - Benefits of using version control systems
-   - Overview of Git
+1. **Introduction au Contrôle de Version**
+   - Qu'est-ce que le contrôle de version ?
+   - Avantages de l'utilisation des systèmes de contrôle de version
+   - Vue d'ensemble de Git
 
-2. **Getting Started with GitHub**
-   - Creating a GitHub account
-   - Setting up Git on your local machine
-   - Basic Git commands
+2. **Commencer avec GitHub**
+   - Création d'un compte GitHub
+   - Configuration de Git sur votre machine locale
+   - Commandes Git de base
 
-3. **Repositories**
-   - Creating a new repository
-   - Cloning a repository
-   - Understanding repository structure
+3. **Référentiels**
+   - Création d'un nouveau référentiel
+   - Clonage d'un référentiel
+   - Comprendre la structure du référentiel
 
-4. **Working with Branches**
-   - What are branches?
-   - Creating and managing branches
-   - Merging branches
+4. **Travailler avec les Branches**
+   - Qu'est-ce qu'une branche ?
+   - Création et gestion des branches
+   - Fusion des branches
 
-5. **Collaborating on GitHub**
-   - Forking repositories
+5. **Collaborer sur GitHub**
+   - Forker des référentiels
    - Pull requests
-   - Code reviews
+   - Revues de code
 
-6. **Advanced GitHub Features**
-   - Issues and project boards
+6. **Fonctionnalités Avancées de GitHub**
+   - Problèmes et tableaux de projet
    - GitHub Actions
    - GitHub Pages
 
-7. **Best Practices**
-   - Writing good commit messages
-   - Maintaining a clean commit history
-   - Using .gitignore files effectively
+7. **Bonnes Pratiques**
+   - Écrire de bons messages de commit
+   - Maintenir un historique de commit propre
+   - Utiliser efficacement les fichiers .gitignore
 
-## Prerequisites
+## Prérequis
 
-- Basic understanding of command line interface
-- Familiarity with programming concepts (optional but helpful)
+- Compréhension de base de l'interface en ligne de commande
+- Familiarité avec les concepts de programmation (optionnel mais utile)
 
-## Installation and Setup
+## Installation et Configuration
 
-### Installing Git
+### Installer Git
 
-Before you start, you need to have Git installed on your local machine. Follow the instructions below for your operating system:
+Avant de commencer, vous devez avoir Git installé sur votre machine locale. Suivez les instructions ci-dessous pour votre système d'exploitation :
 
 #### Windows
-1. Download Git from [git-scm.com](https://git-scm.com/download/win).
-2. Run the installer and follow the on-screen instructions.
+1. Téléchargez Git depuis [git-scm.com](https://git-scm.com/download/win).
+2. Exécutez l'installateur et suivez les instructions à l'écran.
 
 #### macOS
-1. Install Homebrew if you don't have it already:  
+1. Installez Homebrew si vous ne l'avez pas déjà :
    ```sh
    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
    ```
-2. Install Git using Homebrew:  
+2. Installez Git avec Homebrew :
    ```sh
    brew install git
    ```
 
 #### Linux
-1. Install Git using your package manager. For example, on Ubuntu:  
+1. Installez Git en utilisant votre gestionnaire de paquets. Par exemple, sur Ubuntu :
    ```sh
    sudo apt-get update
    sudo apt-get install git
    ```
 
-### Setting Up Git
+### Configuration de Git
 
-After installing Git, configure it with your GitHub account details:
+Après avoir installé Git, configurez-le avec les détails de votre compte GitHub :
 
 ```sh
-git config --global user.name "Your Name"
-git config --global user.email "youremail@example.com"
+git config --global user.name "Votre Nom"
+git config --global user.email "votremail@example.com"
 ```
 
-## Course Instructions
+## Instructions du Cours
 
-1. **Clone the Course Repository**
-   - Open your terminal and run the following command:
+1. **Cloner le Référentiel du Cours**
+   - Ouvrez votre terminal et exécutez la commande suivante :
      ```sh
      git clone https://github.com/yourusername/github-course.git
      ```
-   - Navigate into the course directory:
+   - Accédez au répertoire du cours :
      ```sh
      cd github-course
      ```
 
-2. **Follow the Modules**
-   - Each module is located in its own directory.
-   - Start with the `00-Introduction
-
-regards,
+2. **Suivre les Modules**
+   - Chaque module est situé dans son propre répertoire.
+   - Commencez par le répertoire `00-Introduction` et suivez les instructions.
